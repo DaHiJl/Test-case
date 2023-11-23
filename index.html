@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap" rel="stylesheet">
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=4e78618d-6277-4739-8be9-02ae8db8bad2&lang=ru_RU" type="text/javascript">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=4e78618d-6277-4739-8be9-02ae8db8bad0&lang=ru_RU" type="text/javascript">
     </script>
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -399,8 +399,6 @@
         });
 
         const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            // direction: 'vertical',
             loop: true,
             slidesPerView: 3,
             spaceBetween: 16,
@@ -425,30 +423,13 @@
                     slidesPerView: 3,
                     spaceBetween: 16
                 },
-                // 640: {
-                //     slidesPerView: 4,
-                //     spaceBetween: 40
-                // }
             },
-
-            // If we need pagination
             pagination: {
                 el: '.swiper-pagination',
             },
-            // Navigation arrows
-            // navigation: {
-            //     nextEl: '.swiper-button-next',
-            //     prevEl: '.swiper-button-prev',
-            // },
-
-            // And if we need scrollbar
-            // scrollbar: {
-            //     el: '.swiper-scrollbar',
-            // },
         });
         const swiper_sub = new Swiper('.swiper_sub', {
             loop: true,
-            // direction: 'vertical',
             spaceBetween: 16,
             slidesPerView: 6,
             spaceBetween: 16,
@@ -457,10 +438,6 @@
                     slidesPerView: 1,
                     spaceBetween: 16,
                 },
-                // 640: {
-                //     slidesPerView: 4,
-                //     spaceBetween: 40
-                // }
             },
             pagination: {
                 el: '.swiper-pagination-sub',
